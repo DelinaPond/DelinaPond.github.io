@@ -1,5 +1,5 @@
 /* Setting background image homepage */
-body{
+.homeBody{
     background-image: linear-gradient(to right, #606060, #A0A0A0, #C0C0C0);
 }
 /* Text positioning homepage */
@@ -32,12 +32,29 @@ body{
 /* href removing underline */
 a{
     text-decoration: none;
+    color: white;
 }
 /* Nav Bar styling ALL pages  */
 .navBar{
-    border: solid;
     text-align: end;
     font-size: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: black;
+    opacity: .4;
+    
+}
+.portfolioBody{
+    background-image: url(../images/textPortPage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contactBody{
+    background-image: url(../images/contactImage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 

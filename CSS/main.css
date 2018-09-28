@@ -46,16 +46,59 @@ a{
     opacity: .4;
     
 }
+/* Background for portfolio page */
 .portfolioBody{
     background-image: url(../images/textPortPage.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    
 }
+/* styling for resume images on portfolio */
+.rImg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 10%;
+    
+}
+/* setting image for logos portfolio pae */
+.mm{
+    background-image: url("../images/mmLogo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px black;
+}
+.well{
+    background-image: url("../images/well.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 20px;   
+}
+/* hover enlarge resume images  */
+.mm:hover{
+    width: 110px;
+    height: 110px;
+}
+.well:hover{
+    width: 110px;
+    height: 110px;
+}
+/* grid for port images */
+.portGrid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    border: solid;
+}
+/* background for the contact page */
 .contactBody{
     background-image: url(../images/contactImage.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 
 
